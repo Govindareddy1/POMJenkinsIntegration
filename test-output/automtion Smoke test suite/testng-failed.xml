@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [automtion Smoke test suite]">
+  <listeners>
+    <listener class-name="com.test.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="3" name="DemoTest_case3(failed)">
+    <classes>
+      <class name="com.qa.smokesuite.testcases.DemoTest_case3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tc_test2"/>
+        </methods>
+      </class> <!-- com.qa.smokesuite.testcases.DemoTest_case3 -->
+    </classes>
+  </test> <!-- DemoTest_case3(failed) -->
+</suite> <!-- Failed suite [automtion Smoke test suite] -->

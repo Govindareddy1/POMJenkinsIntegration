@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="automtion Smoke test suite" verbose="3" thread-count="5">
+
+	<listeners>
+		<listener class-name="com.test.listeners.TestListener" /> 
+		
+	</listeners>
+	
+	
+	  <test name="DemoTest_case1">
+		<classes>
+			<class name="com.qa.smokesuite.testcases.DemoTest_case1"/>
+		 </classes>
+	   </test>
+
+	<!-- <test name="DemoTest_case2">
+		<classes>
+			<class name="com.qa.smokesuite.testcases.DemoTest_case2"/>
+		 </classes>
+	   </test>
+	   
+	   <test name="DemoTest_case3">
+		<classes>
+			<class name="com.qa.smokesuite.testcases.DemoTest_case3"/>
+		 </classes>
+	   </test> -->
+	      
+</suite>
